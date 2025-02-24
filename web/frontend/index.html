@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script type="module">
+      if (!import.meta.env || !import.meta.env.PROD) {
+        const script = document.createElement("script");
+        script.setAttribute("type", "module");
+        script.setAttribute("src", "./dev_embed.js");
+        document.getElementsByTagName("head")[0].append(script);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <p>
+        This app watches for newly created orders and moves them to a Amazon location if the order has a "BwP Note" and if inventory is available for the ordered items in Amazon location.
+      </p>
+    </div>
+  </body>
+</html>

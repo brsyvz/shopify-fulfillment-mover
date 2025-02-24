@@ -1,0 +1,38 @@
+{
+  "HomePage": {
+    "heading": "",
+    "learnMore": "",
+    "startPopulatingYourApp": "",
+    "title": "change Fulfillment location for orders created with 'Buy with Prime' tag",
+    "trophyAltText": "",
+    "yourAppIsReadyToExplore": ""
+  },
+  "NavigationMenu": {
+    "pageName": ""
+  },
+  "NotFound": {
+    "description": "",
+    "heading": ""
+  },
+  "PageName": {
+    "body": "",
+    "heading": "",
+    "primaryAction": "",
+    "secondaryAction": "",
+    "title": ""
+  },
+  "ProductsCard": {
+    "description": "",
+    "errorCreatingProductsToast": "",
+    "populateProductsButton": {
+      "one": "",
+      "other": ""
+    },
+    "productsCreatedToast": {
+      "one": "",
+      "other": ""
+    },
+    "title": "",
+    "totalProductsHeading": ""
+  }
+}

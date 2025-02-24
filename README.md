@@ -1,4 +1,7 @@
-# Shopify App Template for Node
+# Dev note: This app watches for newly created orders and moves them to a Amazon location if the order has a "BwP Note" and if inventory is available for the ordered items in Amazon location.
+
+
+## Shopify App Template for Node
 
 This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using Node and React. It contains the basics for building a Shopify app.
 
